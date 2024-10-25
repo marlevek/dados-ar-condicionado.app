@@ -309,18 +309,18 @@ parametros = {
             'limite_maximo': 30.0,
             'cabo_pp': '4 x 1,5mm',
             'ligacao_eletrica': 'condensadora',
-            'tubulacao': '1/4 e 3/8'     
+            'tubulacao': '1/4 e 1/2'     
        }
    },
    '24.000 BTU/h': {
        'R-32': {
-            'carga_por_metro': 15,
+            'carga_por_metro': 30,
             'limite_fabrica': 5.0,
             'limite_minimo': 2.0,
             'limite_maximo': 30.0,
             'cabo_pp': '4 x 1,5mm',
             'ligacao_eletrica': 'condensadora',
-            'tubulacao': '1/4 e 3/8'     
+            'tubulacao': '3/8 e 5/8'     
        }
    },
  },
