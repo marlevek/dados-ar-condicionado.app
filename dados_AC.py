@@ -240,7 +240,16 @@ parametros = {
                 'ligacao_eletrica': 'condensadora',
                 'tubulacao': '1/4 e 3/8',
                 'observacoes': ('Se for modelo só frio, a carga adicional de gás é 12g/metro acima de 5m')    
-        }
+        },
+            'R-410a':{
+                'carga_por_metro': 20,
+                'limite_fabrica': 7.5,
+                'limite_minimo': 3.0,
+                'limite_maximo': 15.0,
+                'cabo_pp': '4 x 1,5mm',
+                'ligacao_eletrica': 'condensadora',
+                'tubulacao': '1/4 e 3/8',
+        },     
     },
         '12.000 BTU/h': {
             'R-32':{
@@ -251,9 +260,19 @@ parametros = {
                 'cabo_pp': '4 x 1,5mm',
                 'ligacao_eletrica': 'condensadora',
                 'tubulacao': '1/4 e 3/8',
-                'observacoes': ('Se for modelo só frio, a carga adicional de gás é 12g/metro acima de 5m')       
-        }
+        },
+         
+            'R-410a':{
+                'carga_por_metro': 20,
+                'limite_fabrica': 7.5,
+                'limite_minimo': 3.0,
+                'limite_maximo': 20.0,
+                'cabo_pp': '4 x 1,5mm',
+                'ligacao_eletrica': 'condensadora',
+                'tubulacao': '1/4 e 3/8',
+                'observacoes': ('Para o modelo GWC12AAC-D3NNA1E o comprimento máximo da tubulação é de 25 metros')            
     },
+},
         '18.000 BTU/h': {
             'R-32':{
                 'carga_por_metro': 12,
@@ -264,7 +283,16 @@ parametros = {
                 'ligacao_eletrica': 'condensadora',
                 'tubulacao': '1/4 e 1/2',
                 'observacoes': ('Se for modelo só frio, a carga adicional de gás é 12g/metro acima de 5m')       
-        }
+        },
+            'R-410a':{
+                'carga_por_metro': 20,
+                'limite_fabrica': 7.5,
+                'limite_minimo': 3.0,
+                'limite_maximo': 25.0,
+                'cabo_pp': '4 x 1,5mm',
+                'ligacao_eletrica': 'condensadora',
+                'tubulacao': '1/4 e 1/2',  
+        },        
     },
         '24.000 BTU/h': {
             'R-32':{
@@ -275,7 +303,16 @@ parametros = {
                 'cabo_pp': '4 x 1,5mm',
                 'ligacao_eletrica': 'condensadora',
                 'tubulacao': '1/4 e 1/2'       
-        }
+        },
+            'R-410a':{
+                'carga_por_metro': 20,
+                'limite_fabrica': 7.5,
+                'limite_minimo': 2.0,
+                'limite_maximo': 25.0,
+                'cabo_pp': '4 x 1,5mm',
+                'ligacao_eletrica': 'condensadora',
+                'tubulacao': '1/4 e 1/2'       
+        },
     },
 },
  
