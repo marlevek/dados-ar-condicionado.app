@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.set_page_config('Informações para instalação ar-condicionado Hi Wall', page_icon=':mechanic:')
-st.title('Características Ar-Condicionado Hi Wall :material/heat_pump:')
+st.title('Ar-Condicionado Hi Wall :material/heat_pump:')
 
 parametros = {
 'Agratto': {
@@ -545,7 +545,7 @@ parametros = {
             'carga_por_metro':15,
             'limite_fabrica': 5.0,
             'limite_minimo': 3.0,
-            'limite_maximo': 300,
+            'limite_maximo': 30,
             'cabo_pp': '5 x 1,5mm',
             'ligacao_eletrica': 'condensadora',
             'tubulacao': '1/4 e 1/2'
